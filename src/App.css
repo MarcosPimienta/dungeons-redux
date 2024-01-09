@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+.character-form {
+  width: 95%;
+  height: 95%;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: white;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.character-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+}
+
+.top-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10%;
+}
