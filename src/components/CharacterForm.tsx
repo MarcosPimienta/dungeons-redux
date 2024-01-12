@@ -13,6 +13,16 @@ const CharacterForm = () => {
           <p>Race: <span>________</span>Alignment: <span>________</span> Experience Points: <span>________</span></p>
         </div>
       </div>
+      <p>
+        <div className='character-traits-container'>
+          <div className='character-trait-box'>STRENGTH</div>
+          <div className='character-trait-box'>DEXTERITY</div>
+          <div className='character-trait-box'>CONSTITUTION</div>
+          <div className='character-trait-box'>INTELLIGENCE</div>
+          <div className='character-trait-box'>WISDOM</div>
+          <div className='character-trait-box'>CHARISMA</div>
+        </div>
+      </p>
     </div>
   );
 };

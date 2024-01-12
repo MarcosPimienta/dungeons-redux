@@ -49,6 +49,7 @@
   flex-direction: column;
 }
 
+/* Top Section */
 .character-info {
   display: flex;
   flex-direction: column;
@@ -61,4 +62,26 @@
   flex-direction: row;
   justify-content: center;
   gap: 10%;
+}
+
+/* Left Section */
+.character-traits-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 10%;
+  background: rgb(143, 143, 143);
+  border-radius: 8px;
+}
+
+.character-trait-box {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 120px;
+  background: white;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
